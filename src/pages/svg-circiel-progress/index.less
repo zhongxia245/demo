@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background: #F5F5F5;
+}
+
+.loading {
+  position: relative;
+  padding: 50px;
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 1px 1px 5px 1px rgba(197, 197, 197, 0.50);
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .loading__text {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    transform: translateX(-50%);
+
+    p {
+      color: #92959A;
+      font-size: 13px;
+    }
+
+    strong {
+      color: #4A4A4A;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 1;
+    }
+
+    span {
+      color: #4A4A4A;
+      font-weight: normal;
+      font-size: 18px;
+    }
+  }
+}
+
+svg {
+  // 兼容ios起始坐标异常问题
+  transform: rotate(-0.05deg);
+}
+
+circle {
+  transition: stroke-dasharray 3s linear;
+}
