@@ -26,7 +26,7 @@ const config: IConfig = {
       'umi-plugin-mpa',
       {
         entry: getEntries('src/pages/**/**.{jsx,tsx}'),
-        // selectEntry: true,
+        selectEntry: true,
         html: {},
         splitChunks: true,
         deepPageEntry: true,

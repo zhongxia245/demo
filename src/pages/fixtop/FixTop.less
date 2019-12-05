@@ -1,0 +1,24 @@
+.comp-fixtop {
+  &.ios-fixed {
+    position: sticky;
+    top: 0;
+  }
+
+  .comp-fixtop-reference {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    border-top: 1PX solid red;
+  }
+
+  .comp-fixtop-content {
+    &.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9;
+    }
+  }
+}
