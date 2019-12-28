@@ -1,0 +1,2 @@
+.comp-fixtop.ios-fixed{position:-webkit-sticky;position:sticky;top:0}.comp-fixtop .comp-fixtop-reference{position:relative;z-index:-1;width:100%;height:0;border-top:1px solid red}.comp-fixtop .comp-fixtop-content.fixed{position:fixed;top:0;left:0;width:100%;z-index:9}
+.js-demo{padding:1.25rem;background:#deb887}
