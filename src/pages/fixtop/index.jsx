@@ -125,4 +125,4 @@ export default function Demo() {
   );
 }
 
-render(<Demo />, document.getElementById('app'));
+render(<Demo />, document.getElementById('root'));
