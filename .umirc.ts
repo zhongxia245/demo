@@ -9,6 +9,7 @@ const config: any = {
     [
       'umi-plugin-mpa-pug',
       {
+        prefixPath: 'pages/',
         selectEntry: true,
       },
     ],
@@ -16,6 +17,7 @@ const config: any = {
       'umi-plugin-react',
       {
         antd: true,
+        dynamicImport: true,
       },
     ],
   ],
